@@ -6,7 +6,7 @@ const notfound = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
 
-    const APIKey = '6bff8c20b4454d885e387de8baa2114f';
+    const APIKey = ''; // Create yourself APIkey https://openweathermap.org/api
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
